@@ -1,0 +1,31 @@
+{
+  "name": "@raae/gatsby-starter-demo",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A Gatsby demo starter from @raae",
+  "author": "@raae",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@raae/gatsby-plugin-new-css": "0.0.1",
+    "@sendgrid/mail": "7.4.6",
+    "axios": "0.21.1",
+    "gatsby": "^3.9.0",
+    "gatsby-plugin-gatsby-cloud": "2.9.0",
+    "google-spreadsheet": "3.1.15",
+    "http-errors": "1.7.2",
+    "query-string": "6.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-query": "3.19.6",
+    "stripe": "8.170.0"
+  }
+}
